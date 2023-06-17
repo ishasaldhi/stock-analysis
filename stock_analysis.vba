@@ -96,7 +96,6 @@ Sub StockMarket():
         w.Cells(4, "Q").Value = Application.WorksheetFunction.Max(Columns("L"))
         w.Cells(2, "Q").Value = Format(w.Cells(2, "Q").Value, "0.00%")
         w.Cells(3, "Q").Value = Format(w.Cells(3, "Q").Value, "0.00%")
-        w.Cells(4, "Q").Value = Format(w.Cells(4, "Q").Value, "0.00%")
         
     Next w
     
